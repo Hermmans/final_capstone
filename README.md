@@ -1,7 +1,7 @@
 # Figma design and Planning
 
 The figma design was designed by Hermmans Orejuela
-Down below is a link on how it was supposed to look like. The design was made with mobile first. The idea that you start with you're mobile design and expand from there.
+Down below is a link on how it was supposed to look like. The design was made with mobile first. The idea that you start with your mobile design and expand from there.
 https://www.figma.com/file/UfyArGAuZcWvHRkuO2dpol/Prep-%3EMeals-web-app-draft
 
 Below is a little preview on it as well:
