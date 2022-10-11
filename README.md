@@ -5,6 +5,7 @@ https://www.figma.com/file/UfyArGAuZcWvHRkuO2dpol/Prep-%3EMeals-web-app-draft
 
 Below is a little preview on it as well:
 https://www.figma.com/proto/UfyArGAuZcWvHRkuO2dpol/Prep-%3EMeals-web-app-draft?node-id=18%3A98&starting-point-node-id=18%3A98
+
 (due to time constraints we couldn't have the project do everything we wish it had, but despite that this project demonstrates collaborative work as well a fully functional full stack application that involves Javascript, React, Redux, html, css for the frontend. For the Backend we have Java, SQL, and Springs. 
 
 
