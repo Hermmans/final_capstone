@@ -12,7 +12,7 @@ Due to time constraints we couldn't have the project do everything we wish it ha
 Our database design was done using lucid
 https://lucid.app/lucidchart/d9bbfd0a-f0a1-4361-b753-196f38877074/edit?invitationId=inv_3ae72632-6cd5-4ab4-8511-345a8242a742&referringApp=slack&page=0_0#
 
-To do this project we used slack and zoom for video and messaging each other, google docs and sheets for planning and presenting, figma for design and proto-typing. 
+To do this project we used slack and zoom for video and messaging each other, google docs and sheets for planning and presenting, figma for design and proto-typing, and trello for our agile process. 
 ## Project setup
 
 The first thing you'll need to do is to download any dependencies by running this command:
