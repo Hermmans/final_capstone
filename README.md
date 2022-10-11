@@ -1,6 +1,12 @@
-# Final React Capstone Project Seed
+#Figma design and proto-typing
+The figma design was designed by Hermmans Orejuela
+Down below is a link on how it was supposed to look like.
+https://www.figma.com/file/UfyArGAuZcWvHRkuO2dpol/Prep-%3EMeals-web-app-draft
 
-This is the React starter project for the final capstone. This document walks you through how to set up and run the project. It also explains the project's features, such as React Router, Redux, and authentication.
+Below is a little preview on it as well:
+https://www.figma.com/proto/UfyArGAuZcWvHRkuO2dpol/Prep-%3EMeals-web-app-draft?node-id=18%3A98&starting-point-node-id=18%3A98
+(due to time constraints we couldn't have the project do everything we wish it had, but despite that this project demonstrates collaborative work as well a fully functional full stack application that involves Javascript, React, Redux, html, css for the frontend. For the Backend we have Java, SQL, and Springs. 
+
 
 ## Project setup
 
@@ -38,54 +44,6 @@ path variable. If you look at the `<Route/>` component with the path `/home` you
 
 is only loaded if the user is authorized.
 
-
-
-### Redux
-
-The state for this application is stored and managed in the various files you'll find in the folder labeled `Redux`. The application has two state objects: token and user. When a user logs in, 
-
-back-end API authorizes the request with the given credentials and then, upon successful login, the response object is parsed and then stored in the two state objects.
-```
-    handleLogin = async () => {
-        const data = { username: this.state.username, password: this.state.password };
-        
-
-        const userWithToken = await axios.post(baseUrl + '/login', data)
-
-    
-        await this.props.dispatch(addToken(userWithToken.data.token))
-        await this.props.dispatch(addUser(userWithToken.data.user));
-    }
-```
-### Login
-
-When you reach the `/login` route, you'll see a bare login page. This is intentional. It's up to you to style this page to fit within your application.
-
-When you fill in a username and password and click the "Sign In" button, the method `handleLogin()` is called. The `handleLogin()` method uses the axios to send a `POST` request to your API's `/login` route.
-
-If a successful response is returned, the response is parsed into the token and user objects and then functions are dispatched to send those objects to the Redux store.
-
-
-
-Once the `handleLogin()` method finishes updating the store by committing the mutations, the Main component recognizes the token and redirects the user to the Home component. They'll be able to see the homepage because they're authenticated.
-
-### Logout
-
-When a user is logged in, they will see a `logout` link next to the `home` link. The logout link erases the token from the Redux store and deauthorizes the user.
-
-
-
-### Register
-
-When you reach the `/register` route, you'll see a bare registration page. Like the login page, this is intentional. You'll need to style this page to fit within your application.
-
-When you fill in a username, password, confirm the password, and click the "Create Account" button, the method `handleSubmit()` is called. This calls the `handleLogin()`. This passes  your user details to your back-end application's REST API to create a new user:
-
-```
-    const handleSubmit = () => {
-        const data = {username: username, password: password, confirmPassword: confirmPassword, role: 'ROLE_USER'}
-        if(password === confirmPassword){
-            axios.post(baseUrl + "/register", data)
-        }
-    }
-```
+##TO LOGIN 
+we have user and admin, 
+both have a password set to password.
