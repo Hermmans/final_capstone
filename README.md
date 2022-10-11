@@ -1,4 +1,4 @@
-# Figma design and proto-typing
+# Figma design and Planning
 
 The figma design was designed by Hermmans Orejuela
 Down below is a link on how it was supposed to look like.
@@ -9,7 +9,10 @@ https://www.figma.com/proto/UfyArGAuZcWvHRkuO2dpol/Prep-%3EMeals-web-app-draft?n
 
 Due to time constraints we couldn't have the project do everything we wish it had, but despite that this project demonstrates collaborative work as well a fully functional full stack application that involves Javascript, React, Redux, html, css for the frontend. For the Backend we have Java, SQL, and Springs. 
 
+Our database design was done using lucid
+https://lucid.app/lucidchart/d9bbfd0a-f0a1-4361-b753-196f38877074/edit?invitationId=inv_3ae72632-6cd5-4ab4-8511-345a8242a742&referringApp=slack&page=0_0#
 
+To do this project we used slack and zoom for video and messaging each other, google docs and sheets for planning and presenting, figma for design and proto-typing. 
 ## Project setup
 
 The first thing you'll need to do is to download any dependencies by running this command:
@@ -46,6 +49,6 @@ path variable. If you look at the `<Route/>` component with the path `/home` you
 
 is only loaded if the user is authorized.
 
-##TO LOGIN 
+## TO LOGIN 
 we have user and admin, 
 both have a password set to password.
