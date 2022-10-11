@@ -1,4 +1,5 @@
-#Figma design and proto-typing
+# Figma design and proto-typing
+
 The figma design was designed by Hermmans Orejuela
 Down below is a link on how it was supposed to look like.
 https://www.figma.com/file/UfyArGAuZcWvHRkuO2dpol/Prep-%3EMeals-web-app-draft
